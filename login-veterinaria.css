@@ -1,0 +1,141 @@
+* {
+    font-family:'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url(imagenes/imagesespacio.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(30, 145, 145);
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.1);
+}
+
+.contenedor {
+    position: relative;
+    width: 400px;
+    border: 2px solid rgb(3, 3, 3);
+    backdrop-filter: blur(15px);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor h2 {
+    font-size: 2.3rem;
+    color: #181717;
+    text-align: center;
+}
+
+.input-contenedor {
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+}
+
+.input-contenedor label  {
+    position: absolute;
+    top: 40%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .2s;
+    font-weight: bold;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -15px;
+}
+
+.input-contenedor input {
+    width: 100%;
+    height: -50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: - 35px 0 5px ;
+    color: #fff;
+}
+
+.input-contenedor i {
+    position: absolute;
+    color: #fff;
+    font-size: 1.6rem;
+    top: 19px;
+    right: 8px;
+}
+
+.olvidar {
+    margin: -15px 0 15px;
+    font-size: .9rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.olvidar label input {
+    margin: 3px;
+}
+
+.olvidar label a {
+    color: #ddd;
+    text-decoration: none;
+    transition: .3s;
+    font-size: .9em;
+}
+
+.olvidar label a:hover {
+    text-decoration: underline;
+}
+
+.Registrarse {
+    text-align: center;
+    font-size: 1rem;
+    color: #ddd;
+    margin: 20px 0 10px;
+}
+
+.Registrarse p a {
+    text-decoration: none;
+    color: #fdfdfd;
+    transition: .3s;
+}
+
+button {
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    transition: .4s;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button:hover {
+    opacity: .9;
+    background-color: black;
+    color: #ddd;
+}

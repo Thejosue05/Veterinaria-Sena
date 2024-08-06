@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/dia-de-prensa.png">
+    <link rel="stylesheet" href="guarderia.css"> 
+    <title>Guardería de Mascotas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="guarederia.html">Guarderia</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="login-veterinaria.html">Inicio Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="imagenes/Logo.png" alt="">
+    <main class="container">
+        <section id="about" class="section">
+            <article>
+                <h2>Sobre Nosotros</h2>
+                <p>En nuestra guardería de mascotas, ofrecemos un ambiente seguro y acogedor para sus amigos peludos. Nuestro equipo de profesionales se dedica a proporcionar el mejor cuidado para su mascota mientras usted está fuera.</p>
+            </article>
+        </section>
+        <section id="services" class="section">
+            <h2>Nuestros Servicios</h2>
+            <article class="service-card">
+                <img src="imagenes/descarga1.jpg" alt="Cuidado diario" height="400px">
+                <h3>Cuidado Diario</h3>
+                <p>Ofrecemos servicios de cuidado diario para mascotas, asegurando que sus amigos peludos reciban la atención y el ejercicio que necesitan durante el día.</p>
+            </article>
+            <article class="service-card">
+                <img src="imagenes/descarga2.jpg" alt="Pensión nocturna">
+                <h3>Pensión Nocturna</h3>
+                <p>Brindamos servicio de pensión nocturna en nuestras instalaciones cómodas y seguras, proporcionando un hogar temporal para su mascota y que disfrute.</p>
+            </article>
+            <article class="service-card">
+                <img src="imagenes/descarga3.jpg" alt="Entrenamiento">
+                <h3>Entrenamiento</h3>
+                <p>Nuestros entrenadores profesionales ofrecen programas de entrenamiento personalizados para mejorar las habilidades de su mascota y rendimiento.</p>
+            </article>
+            <article class="service-card">
+                <img src="imagenes/descarga4.jpg" alt="Grooming">
+                <h3>Grooming</h3>
+                <p>Ofrecemos servicios completos de grooming, asegurando que su mascota esté limpia, saludable y se vea lo mejor posible y su mascota lo disfrutara mucho.</p>
+            </article>
+            <article class="service-formulario">
+                <article class="formu-registro">
+                    <h3 class="titulo-formulario">FORMULARIO DE INSCRIPCION</h3>
+                    <P class="pronombre">Registro de mascota</P>
+                    <form action="#">
+                        <label for="Nombre">Nombre</label> 
+                        <input type="text" id="Nombre" size="24" placeholder="Nombre de mascota" required><br>
+                        <label for="Raza">Raza del animal</label>
+                        <input type="text" id="Raza" size="15" placeholder="Raza de la mascota" required><br>
+                        <label for="color">Color</label>
+                        <input type="text" size="26" placeholder="Color de la mascota" required><br>
+                        <label for="Cumpleaños">Cumpleaños</label>
+                        <input type="date" required><br>
+                        <label for="Edad">Edad</label>
+                        <input type="number" size="26" placeholder="Edad de la mascota" required><br>
+                        <label for="Clinica">Clinica</label>
+                        <input type="text" id="Clinica" size="23"    placeholder="Clinica de la mascota" required><br>
+                        <label for="Respuesta">Esterilizado</label>
+                        <input list="ec" size="18">
+                        <datalist id="ec">
+                            <option value="si">Si</option>
+                            <option value="no">NO</option>
+                        </datalist><br>
+                        <button onclick="alert('Su mascota a sido registrada')">Registrar</button>
+                    </form>
+                </article>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2>Contacto</h2>
+        <p>Para más información o para hacer una reserva, por favor contáctenos:</p>
+        <p>Teléfono: 018000-123456</p>
+        <p>Email: contacto@guarderiamascotas.com</p>
+        <p>Todos los derechos reservados 2024 @Josue Gonzales.</p>
+    </footer>
+</body>
+</html>

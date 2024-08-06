@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(90deg, white, beige);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding: 0%;
+}
+
+header ul {
+    background-color: rgb(41, 40, 40);
+    border-radius: 2px;
+    text-align: center;
+    padding: auto;
+    padding-bottom: 5px;
+    padding-top: 4px;
+}
+
+header ul li  {
+    list-style: none;
+    display: inline;
+    padding-right: 5px;
+}
+
+header ul li a {
+    color: rgb(234, 236, 236);
+    text-decoration: none;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 25px;
+    padding-right: 142px;
+}
+
+header ul li a:hover {
+    color: rgb(196, 183, 183);
+    cursor: pointer;
+}
+
+.title1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(196, 183, 183);
+}
+
+.text1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.imagen1 {
+    margin-left: 32%;
+    margin-top: 70px;
+}
+
+.imagen1 img {
+    margin-left: 6%;
+}
+
+.imagen1 h2 {
+    border: 2px hidden black;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.btn1 {
+    margin-left: 7.5%;
+    border: 1px hidden black;
+    width: 90px;
+    height: 30px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(206, 201, 201);
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.btn1:hover {
+    background-color: rgb(230, 221, 221);
+}
+
+.imagen2 {
+    margin-left: 52%;
+    margin-top: -230px;
+}
+
+.imagen2 img {
+    margin-left: 8.5%;
+}
+
+.imagen2 h2 {
+    border: 2px hidden black;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.btn2 {
+    margin-left: 8.5%;
+    border: 1px hidden black;
+    width: 90px;
+    height: 30px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(206, 201, 201);
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.btn2:hover {
+    background-color: rgb(230, 221, 221);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20%;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.footer-enlaces a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.footer-enlaces a:hover {
+    background-color: rgb(202, 216, 216);
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+}

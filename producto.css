@@ -1,0 +1,274 @@
+body {
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding: 0%;
+    background-size: cover;
+}
+
+
+header ul {
+    background-color: rgb(41, 40, 40);
+    border-radius: 2px;
+    text-align: center;
+    padding: 4px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: rgb(240, 232, 232);
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    header ul li {
+        padding: 5px 0;
+        width: 100%;
+    }
+
+    header ul li a {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+.imagen-fondo3 img {
+    max-width: 100%;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    padding-left: 25%;
+}
+
+.paloma {
+    text-align: center;
+    color: goldenrod;
+}
+
+.gato-perro img {
+    float: left;
+    margin-left: 12px;
+    border-radius: 26px;
+    filter: drop-shadow(4px 4px 4px rgb(112, 117, 45));
+}
+
+.texto1 {
+    color: black;
+    font-weight: bold;
+    margin-left: 520px;
+}
+
+.texto2 {
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.Texto2 {
+    margin-left: 520px;
+}
+
+.gato-perro h3 {
+    text-align: justify;
+    margin-left: 520px;
+    margin-top: -30px;
+}
+
+.anuncio2 h3 {
+    text-align: justify;
+}
+
+.anuncio2 {
+    margin-left: 20px;
+}
+
+.anuncio2 img {
+    float: inline-end;
+    border-radius: 36px;
+    filter: drop-shadow(4px 4px 4px rgb(112, 117,45));
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+
+.parr-1 {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.parr-2 {
+    text-align: justify;
+}
+
+.parrafo3 {
+    text-align: justify;
+}
+
+
+.parrafo3 h4 {
+    font-size: 20px;
+}
+
+.titulo-productos {
+    text-align: center;
+    color: goldenrod;
+    font-size: 40px;
+}
+
+.producto1 {
+    border: 1px solid white;
+    filter: drop-shadow(3px 3px 3px rgb(133,144,17));
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.producto1 img {
+    margin-left: 34px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+button {
+    margin-bottom: 8px;
+    margin-left: 132px;
+}
+
+.titulo1 {
+    padding-left: 5px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px 3px rgb(124 122 122));
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+    padding: 35px;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h2 {
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.product-card .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+    text-align: justify;
+    margin-bottom: -90px;
+}
+
+button {
+    border: 5px;
+    background-image: linear-gradient(150deg, #55088b, rgb(36, 89, 124), #bcc1d6);
+    border-radius: 30px;
+    color: #dd1414;
+    display: flex;
+    font-size: 13px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 3ms;
+    margin-top: 60px;    
+  }
+
+  button span {
+    background-color: rgb(214, 208, 208);
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: .3s;
+  }
+
+  button:hover span {
+    background: none;
+  }
+
+  button:active {
+    transform: scale(0.9);
+  }
+
+  @keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+  }
+
+  img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+  }
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px;
+    filter: drop-shadow(3px 3px 3px rgb(139, 137, 137));
+    margin-left: 20px;
+    padding-left: 330px;
+}
+
+footer img {
+    float: inline-end;
+}

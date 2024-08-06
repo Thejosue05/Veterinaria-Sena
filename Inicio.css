@@ -1,0 +1,270 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+header ul {
+    background-color: rgb(41, 40, 40);
+    border-radius: 2px;
+    text-align: center;
+    padding: 4px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: rgb(240, 232, 232);
+    cursor: pointer;
+}
+
+.register-button {
+    border: 1px solid antiquewhite;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background: linear-gradient(190deg, rgb(230, 225, 225), white);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.register-button:hover {
+    cursor: pointer;
+    background: rgb(207, 205, 205);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.imagen-fondo, .anuncio1, .ubicacion-mascota1, .vermas, .vermas2, .vermas3 {
+    margin-left: 20px;
+}
+
+.imagen-fondo {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.anuncio1, .vermas {
+    margin-top: 12px;
+}
+
+.ubicacion-mascota1 {
+    border: 3px solid transparent;
+    margin-left: 2px;
+}
+
+span {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.ubicacion-mascota1 img, .ubicacion-mascota2 img, .ubicacion-mascota3 img {
+    padding-right: 10px;
+    border-radius: 15px;
+    float:left;
+}
+
+.vermas {
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: chartreuse;
+}
+
+.vermas2 {
+    background-color: chartreuse;
+}
+
+.vermas3 {
+    background-color: chartreuse;
+}
+
+
+.vermas a {
+    text-decoration: none;
+}
+
+.vermas2 a {
+    text-decoration: none;
+    font-size: 15px;
+    border: 3px solid transparent;
+}
+
+.vermas3 a {
+    text-decoration: none;
+    font-size: 15px;
+    border: 3px solid transparent;
+}
+
+.vermas a:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.vermas2 a:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.vermas3 a:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.anuncio2, .anuncio3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.ubicacion-mascota2, .ubicacion-mascota3 {
+    border: 3px none antiquewhite;
+    margin-left: 67px;
+}
+
+.span2, .span3 {
+    color: goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.ubicacion-mascota2 p, .anuncio3 p {
+    margin-left: 30px;
+    margin-top: 2.5px;
+}
+
+.aside-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aside-form {
+    border: 4px solid aliceblue;
+    width: 80%;
+    max-width: 305px;
+    height: 350px;
+    box-shadow: 3px 3px 3px 3px rgb(91, 134, 20);
+    border-radius: 45px;
+    padding: 20px;
+    background-color: white;
+    margin-left: 76%;
+    align-self: flex-start;
+    margin-bottom: 3%;
+    margin-top: -42%;
+}
+
+.aside-form h3 {
+    color: goldenrod;
+    text-align: center;
+}
+
+.puesto-aside {
+    padding-top: 2px;
+    line-height: 1;
+    padding-left: 60px;
+}
+
+.puesto-aside input {
+    border: 3px groove gray;
+    box-shadow: 2px 2px 1px 1px rgb(131, 128, 128);
+    width: 80%;
+    margin: 5px 0;
+}
+
+.validar {
+    border: 2px groove gray;
+    border-radius: 20px;
+    margin-left: 2px;
+    margin-top: 12px;
+    width: 80%;
+    display: block;
+}
+
+.validar:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+footer {
+    border: 3px solid aliceblue;
+    text-align: center;
+    padding: 2px 0 8px 0;
+    box-shadow: 1px 1px 3px 3px rgb(205, 202, 207);
+    font-weight: bold;
+    margin-top: 25%;
+}
+
+@media (max-width: 600px) {
+    header ul li {
+        padding: 5px 0;
+        width: 100%;
+    }
+
+    header ul li a {
+        display: block;
+        width: 100%;
+    }
+
+    .register-button {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .anuncio2, .anuncio3 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .aside-form {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .ubicacion-mascota2, .ubicacion-mascota3 {
+        margin-left: auto;
+    }
+
+    .span2, .span3 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .ubicacion-mascota2 p, .anuncio3 p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
